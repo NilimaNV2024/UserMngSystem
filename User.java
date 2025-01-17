@@ -14,6 +14,7 @@ public class User implements Serializable {
 	private String address;
 
 	public String getUserEmailId() {
+		System.out.println("Hi..");
 		return userEmailId;
 	}
 
