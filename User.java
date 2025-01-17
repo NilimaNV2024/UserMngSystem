@@ -10,8 +10,11 @@ public class User implements Serializable {
 	private String userAddress;
 	private String userAdharNo;
 	private String userEmailId;
+	
+	private String address;
 
 	public String getUserEmailId() {
+		System.out.println("Hi..");
 		return userEmailId;
 	}
 
